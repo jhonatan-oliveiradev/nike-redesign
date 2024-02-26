@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative flex h-screen flex-col items-center justify-center">
+    <section className="relative flex h-screen max-h-[600px] flex-col items-center justify-center">
       <div>
         <h1 className="hidden uppercase">The new 2023 Air Jordan</h1>
         <Image
@@ -22,12 +22,6 @@ const HeroSection = () => {
         sizes="100vw"
         className="h-auto w-[960px]"
       />
-      <div className="mt-16 flex flex-col items-center justify-center">
-        <h2 className="mb-6 text-6xl font-extrabold">Just do it</h2>
-        <p className="text-md text-zinc-400">
-          Captures messages that stands for more than just sport.
-        </p>
-      </div>
     </section>
   );
 };

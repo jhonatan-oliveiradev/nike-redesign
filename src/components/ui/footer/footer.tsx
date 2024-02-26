@@ -1,5 +1,5 @@
 import FooterLinks from "./footer-links";
-import DefaultContainer from "../default-container";
+import DefaultContainer from "../general/default-container";
 import SocialLinks from "./social-links";
 
 const Footer = () => {
