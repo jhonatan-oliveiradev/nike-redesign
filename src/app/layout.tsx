@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/ui/header";
+import Footer from "@/components/ui/footer/footer";
 
 const poppins = Poppins({
   display: "swap",
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
